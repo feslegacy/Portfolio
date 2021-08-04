@@ -59,7 +59,7 @@ section
 {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: calc(100% - 500px);
     height: 100%;
     display: flex;
@@ -78,4 +78,38 @@ section
     background: #333;
     color: #fff;
     padding: 0 5px;
+}
+.banner .contentBx h4
+{
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 300;
+}
+.banner .contentBx h4 span
+{
+    color: #00bcd4;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner .contentBx h2
+{
+    font-size: 3em;
+    color: #333;
+    line-height: 1em;
+}
+p
+{
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 300;
+}
+.btn
+{
+    background: #00bcd4;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
