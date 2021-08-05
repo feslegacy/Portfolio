@@ -19,19 +19,37 @@
                 <h4><span>Hello</span>, I'm</h4>
                 <h2>Hunnain Suhail</h2>
                 <h4>I'm a front end developer</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, sunt ea.
-                Incidunt nobis laudantium vitae culpa.Incidunt nobis laudantium vitae culpa.  
-                Iste veniam explicabo adipisci deserunt ex, quam voluptates beatae atque voluptatem nostrum quis vel.
-                Incidunt nobis laudantium vitae culpa.Incidunt nobis laudantium vitae culpa</p>
+                <p>A front-end developer architects and develops websites and applications using web technologies 
+                (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform
+                or act as compilation input for non-web platform environments (i.e., React Native).
+                </p>
                 <a href="#" class="btn">About Me</a>
             </div>
+            <ul class="sci">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul> 
         </div>
     </section>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
 
     <script>
         function togglemenu(){
             const menutoggle = document.querySelector('.toggle');
-            menutoggle.classList.toggle('active')
+            const sidebar = document.querySelector('.sidebar');
+            menutoggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
         }
     </script>
 </body>
