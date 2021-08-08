@@ -338,7 +338,7 @@ p
 }
 .work .content .workBx:hover .textBx
 {
-    opacity: 1;
+    opacity: 0.4;
 }
 .work .content .workBx .textBx h3
 {
